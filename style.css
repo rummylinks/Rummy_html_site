@@ -1,0 +1,49 @@
+
+body {
+    background-color: #2e005f;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: gold;
+    margin-bottom: 30px;
+}
+.app {
+    background-color: #3f0073;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.app img {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+.info {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+.info h2 {
+    margin: 0;
+}
+.info span {
+    color: lightgreen;
+}
+.download-btn {
+    background-color: gold;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
