@@ -1,0 +1,30 @@
+
+body {
+    background-color: #32004f;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.card {
+    background: #4a007a;
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+.btn {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
